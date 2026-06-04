@@ -261,7 +261,7 @@ Thank you for the opportunity to complete this assignment.
 I built a full-stack WeatherAI Smart Forecast Dashboard using React, Vite, Node.js, and Express. The application integrates the WeatherAI API through a secure backend proxy so the API key is not exposed on the frontend.
 
 GitHub Repository: https://github.com/mesho254/WeatherAISmartForecastDashboard.git
-Live Deployment: https://your-live-site-url.netlify.app
+Live Deployment: https://weather-ai-smart-forecast-dashboard-kappa.vercel.app/
 
 The README includes setup instructions, environment variable configuration, local development steps, deployment notes, and architectural details.
 
