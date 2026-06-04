@@ -79,7 +79,7 @@ weather-ai-starter/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/weather-ai-starter.git
+git clone https://github.com/mesho254/WeatherAISmartForecastDashboard.git
 cd weather-ai-starter
 ```
 
@@ -170,10 +170,10 @@ curl "http://localhost:5000/api/weather?lat=-1.2921&lon=36.8219&days=7&ai=true&u
 
 ## Deployment
 
-### Backend on Render
+### Backend on Vercel
 
 1. Push the project to GitHub.
-2. Go to Render and create a new Web Service.
+2. Go to Vercel and create a new Web Service.
 3. Select the repository.
 4. Set root directory:
 
@@ -198,7 +198,7 @@ npm start
 ```env
 NODE_ENV=production
 PORT=10000
-CLIENT_ORIGIN=https://your-frontend-domain.netlify.app
+CLIENT_ORIGIN=https://your-frontend-domain.vercel.app
 WEATHER_AI_BASE_URL=https://api.weather-ai.co
 WEATHER_AI_API_KEY=wai_your_real_key_here
 CACHE_TTL_SECONDS=300
@@ -206,9 +206,9 @@ CACHE_TTL_SECONDS=300
 
 8. Deploy and copy the backend URL.
 
-### Frontend on Netlify
+### Frontend on Vercel
 
-1. Create a new Netlify site from GitHub.
+1. Create a new Vercel site from GitHub.
 2. Set base directory:
 
 ```txt
@@ -230,7 +230,7 @@ client/dist
 5. Add environment variable:
 
 ```env
-VITE_API_URL=https://your-render-backend-url.onrender.com
+VITE_API_URL=https://your-render-backend-url.vercel.com
 ```
 
 6. Deploy.
@@ -260,7 +260,7 @@ Thank you for the opportunity to complete this assignment.
 
 I built a full-stack WeatherAI Smart Forecast Dashboard using React, Vite, Node.js, and Express. The application integrates the WeatherAI API through a secure backend proxy so the API key is not exposed on the frontend.
 
-GitHub Repository: https://github.com/YOUR_USERNAME/weather-ai-starter
+GitHub Repository: https://github.com/mesho254/WeatherAISmartForecastDashboard.git
 Live Deployment: https://your-live-site-url.netlify.app
 
 The README includes setup instructions, environment variable configuration, local development steps, deployment notes, and architectural details.
