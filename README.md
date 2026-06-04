@@ -230,7 +230,7 @@ client/dist
 5. Add environment variable:
 
 ```env
-VITE_API_URL=https://your-render-backend-url.vercel.com
+VITE_API_URL=https://your-vercel-backend-url.vercel.com
 ```
 
 6. Deploy.
