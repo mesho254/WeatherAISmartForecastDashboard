@@ -22,6 +22,15 @@ app.use(
 app.use(express.json());
 app.use(morgan('dev'));
 
+app.get('/', (_req, res) => {
+  res.json({
+    message: 'Welcome to WeatherAI Backend',
+    status: 'running',
+    version: '1.0.0',
+    endpoints: '/api/health, /api/weather, /api/current, /api/daily, /api/hourly, /api/usage'
+  });
+});
+
 app.use('/api', router);
 
 app.use((_req, res) => {
